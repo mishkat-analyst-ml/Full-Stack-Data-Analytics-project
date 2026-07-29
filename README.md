@@ -346,21 +346,6 @@ The analysis provides answers to questions such as:
 - Interactive Reports
 - Data Visualization
 
----
-
-# Dashboard Preview
-
-## Executive Dashboard
-
-*(Add Screenshot Here)*
-
----
-
-## Sales Dashboard
-
-*(Add Screenshot Here)*
-
----
 
 # Project Outcome
 
@@ -368,15 +353,6 @@ This project demonstrates how raw e-commerce transaction data can be transformed
 
 It showcases practical data analytics skills across the full analytics lifecycle—from data preparation to executive-ready business intelligence dashboards.
 
----
-
-# Author
-
-**Mishkat Ullah**
-
-**Aspiring Data Analyst**
-
-**Skills:** Python • SQL • Power BI • DAX • Data Cleaning • EDA • Business Intelligence • Dashboard Development
 
 
 # 👨‍💻 Author

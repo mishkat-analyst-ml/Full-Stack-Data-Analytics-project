@@ -1,375 +1,297 @@
 # Full-Stack-Data-Analytics-project
-# 📊 Daraz Sales Performance Analytics
-## End-to-End Business Intelligence Project | Python • MySQL • Power BI • DAX
 
-> **Turning raw e-commerce transactions into actionable business insights through data analytics and interactive dashboards.**
+End-to-End Full Stack Data Analytics Project
+
+Transforming Raw Sales Data into Executive-Level Business Intelligence using Python, SQL, Power BI, and Advanced Analytics.
+
+# ⭐ Project Overview
+
+This project simulates the work of a professional Data Analyst inside an e-commerce company like Daraz, Amazon, Flipkart, or Alibaba.
+
+Starting from raw transactional data, the project follows the complete analytics lifecycle:
+
+Data Collection
+Data Cleaning
+Exploratory Data Analysis (EDA)
+SQL Business Analysis
+KPI Development
+Power BI Dashboard Development
+Executive Reporting
+Business Recommendations
+
+The final solution enables business stakeholders to monitor sales performance, customer behavior, payment trends, regional performance, product categories, and revenue growth through multiple interactive dashboards.
+
+# 🎯 Business Problem
+
+E-commerce companies generate thousands of transactions every day.
+
+Without proper analysis, businesses struggle to answer questions such as:
+
+Which categories generate the highest revenue?
+Which cities have the highest demand?
+Which payment methods do customers prefer?
+Why are sales declining?
+Which months require promotional campaigns?
+Which customers should be targeted?
+Which products should receive additional inventory?
+
+This project answers these questions through advanced analytics.
+
+# 🏗 Complete Analytics Pipeline
+Raw Dataset
+      │
+      ▼
+Python Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+SQL Business Analysis
+      │
+      ▼
+Power BI Dashboard Development
+      │
+      ▼
+Business Insights
+      │
+      ▼
+Executive Recommendations
+# 🛠 Technologies Used
+Category	Tools
+Programming	Python
+Data Analysis	Pandas, NumPy
+Visualization	Matplotlib
+Database	MySQL
+Business Intelligence	Power BI
+KPI Development	DAX
+Version Control	Git
+IDE	Jupyter Notebook
+# 📊 Project Features
+✔ Python
+Data Cleaning
+Data Validation
+Missing Value Handling
+Duplicate Removal
+Feature Engineering
+Data Transformation
+Outlier Detection
+✔ SQL
+Joins
+CTEs
+Window Functions
+Ranking
+Aggregate Functions
+GROUP BY
+HAVING
+CASE Statements
+Revenue Analysis
+Customer Analysis
+✔ Power BI
+Executive Dashboard
+Sales Dashboard
+Customer Dashboard
+Product Dashboard
+Interactive Filters
+Dynamic KPIs
+Drill Through
+Slicers
+📈 Dashboard Collection
+📊 Dashboard 1 — Executive Overview
 
----
+Provides a high-level overview of company performance.
 
-# Executive Summary
+# KPIs include:
 
-Modern e-commerce companies generate thousands of transactions every day. Every order contains valuable information about customers, products, sellers, payments, and sales performance. However, without a centralized analytics solution, decision-makers struggle to transform this raw data into meaningful insights.
+Total Revenue
+Total Orders
+Total Quantity Sold
+Average Order Value
+Highest Sale
+Revenue Growth
 
-This project demonstrates a complete **end-to-end Data Analytics workflow**, starting from raw sales data and ending with an interactive Business Intelligence dashboard that enables stakeholders to monitor KPIs, evaluate performance, and explore sales trends.
+Business Value:
 
----
+Allows executives to monitor business health in a single view.
 
-# Business Problem
+📈 Dashboard 2 — Sales Performance Analysis
 
-An e-commerce business wants to improve decision-making using sales data but faces several challenges.
+Focus Areas
 
-Management cannot easily determine:
+Monthly Revenue Trend
+Yearly Performance
+Seasonal Sales
+Revenue Growth
+Sales Comparison
 
-### 📈 Sales Performance
+Business Questions Answered
 
-- What is the total revenue generated?
-- How many orders have been placed?
-- How many products have been sold?
-- Is revenue increasing or decreasing over time?
-- Which months generate the highest sales?
-- Which years perform better?
+Which month performed best?
+Which month requires marketing?
+Is revenue increasing or decreasing?
 
----
+Business Recommendation
 
-### 🛒 Product Performance
+Launch promotional campaigns before historically low-performing months.
 
-- Which products generate the highest revenue?
-- Which categories contribute the largest share of sales?
-- Which products perform above the average sales value?
-- Which products should receive additional marketing investment?
-- Which categories require improvement?
+👥 Dashboard 3 — Customer Analytics
 
----
+Focus Areas
 
-### 👥 Customer Analysis
+Customer Cities
+Payment Methods
+Customer Distribution
+Buying Behavior
 
-- Who are the highest-value customers?
-- Which customers purchase frequently?
-- Which customers contribute the most revenue?
-- Which customer segments generate the highest business value?
+Business Questions Answered
 
----
+Which cities generate the highest sales?
+Which payment methods are preferred?
+Where should marketing campaigns focus?
 
-### 🏪 Seller Performance
+Business Recommendation
 
-- Which sellers generate the highest revenue?
-- Which sellers consistently outperform others?
-- Which sellers require performance improvement?
+Prioritize advertising in high-performing cities while increasing awareness in underperforming regions.
 
----
+# 📦 Dashboard 4 — Product & Category Analytics
 
-### 🌍 Regional Performance
+Executive KPIs
+KPI	Value
+Total Revenue	4.14M
+Average Sales	2.96K
+Average Order Value	2.96K
+Highest Sale	9.97K
+Total Quantity Sold	4,130
+Business Insights
+Revenue Trend
 
-- Which cities generate the highest revenue?
-- Which locations have the greatest customer demand?
-- Which regions show opportunities for future business expansion?
+The monthly revenue trend shows a gradual decline over time.
 
----
+# Possible reasons:
 
-### 💳 Payment Analysis
+# Seasonal demand
+Lower customer engagement
+Reduced marketing campaigns
+Inventory shortages
 
-- Which payment methods are preferred by customers?
-- Does payment preference influence overall sales?
+# Recommendation:
 
----
+Increase promotions during weaker months.
+Launch seasonal discounts.
+Improve inventory forecasting.
+Category Performance
 
-### 📊 Executive Reporting
+# The business generates revenue from multiple categories:
 
-Business leaders require a centralized dashboard capable of monitoring business performance in real time without relying on manual spreadsheets or repetitive reports.
+Electronics
+Automotive
+Beauty
+Sports
+Books
+Home Appliances
+Fashion
+
+Business Insight
 
----
+Revenue is well diversified across product categories, reducing dependence on a single product line.
 
-# Project Objectives
+# Recommendation
 
-The primary objective of this project is to build an end-to-end analytics solution that enables stakeholders to:
+Invest more in top-performing categories.
+Bundle slower-moving products with popular items.
+Optimize pricing strategies.
+Yearly Revenue
 
-- Monitor overall business performance
-- Track sales growth over time
-- Analyze customer purchasing behavior
-- Evaluate product performance
-- Compare seller performance
-- Identify high-performing categories
-- Understand regional sales distribution
-- Analyze payment preferences
-- Build executive KPI dashboards
-- Support data-driven decision making
+2024 significantly outperformed 2025.
 
----
+Business Insight
 
-# Solution Approach
+The decline suggests changing market conditions or incomplete data for 2025.
 
-The project follows a complete analytics lifecycle.
+Recommendation
 
----
+Conduct deeper analysis on:
 
-# Phase 1 — Data Cleaning (Python)
+Customer retention
+Marketing ROI
+Inventory levels
+Pricing changes
+Customer Distribution
 
-The raw dataset was prepared for analysis by performing:
+Customers are spread across many cities.
 
-- Dataset inspection
-- Missing value analysis
-- Duplicate detection
-- Data type validation
-- Date conversion
-- String standardization
-- Whitespace removal
-- Outlier detection using IQR
-- Feature engineering
-- Sales calculation
-- Order Month extraction
-- Order Year extraction
+# Business Value
 
-The cleaned dataset was exported for SQL analysis and dashboard development.
+Helps optimize:
 
----
+Delivery routes
+Warehouse planning
+Regional marketing campaigns
+Payment Analysis
 
-# Phase 2 — Exploratory Data Analysis
+Available payment methods:
 
-EDA was performed to understand business trends and identify patterns before creating dashboards.
+Cash on Delivery
+Credit Card
+Debit Card
+Online Banking
 
-The analysis included:
+# Business Recommendation
 
-- Sales Distribution
-- Price Distribution
-- Revenue by Category
-- Monthly Sales Trend
-- Yearly Sales Trend
-- Payment Method Distribution
-- Top Customers
-- Top Sellers
+Encourage digital payments using:
 
-These visualizations helped validate the data and identify key areas for business analysis.
+Cashback
+Reward Points
+Limited-Time Discounts
+# 📊 Key Business Insights
+Generated **4.14M** in total revenue.
+Average order value reached **2.96K**.
+Highest individual transaction totaled **9.97K**.
+Revenue shows a declining monthly trend, highlighting the need for seasonal marketing.
+Product revenue is diversified across seven categories.
+Electronics and Automotive are among the strongest contributors.
+Customer purchases are distributed across many cities, enabling regional marketing strategies.
+Multiple payment methods improve customer convenience and reduce purchase friction.
+# 📈 Strategic Business Recommendations
+Revenue Growth
+Launch seasonal promotions during low-demand months.
+Increase digital marketing investment.
+Monitor monthly revenue using automated dashboards.
+Inventory Management
+Prioritize inventory for high-demand categories.
+Reduce overstock in slower-moving products.
+Improve demand forecasting using historical trends.
+Customer Retention
+Introduce loyalty programs.
+Send personalized product recommendations.
+Offer discounts to repeat customers.
+Regional Expansion
+Identify high-growth cities.
+Expand logistics coverage.
+Optimize warehouse locations.
+Digital Payments
+Encourage online payments.
+Reduce Cash-on-Delivery dependency.
+Improve checkout experience.
 
----
+# 💼 Skills Demonstrated
+Python Programming
+Data Cleaning
+Exploratory Data Analysis (EDA)
+SQL (Joins, CTEs, Window Functions)
+MySQL Database Design
+Business Intelligence
+Power BI Dashboard Development
+DAX Measures & KPIs
+Data Visualization
+Business Analytics
+Executive Reporting
+Problem Solving
+Data Storytelling
+Analytical Thinking
+# 🎯 Business Impact
 
-# Phase 3 — SQL Business Analysis
-
-The cleaned dataset was imported into MySQL to answer real business questions.
-
-SQL techniques used include:
-
-### Basic SQL
-
-- SELECT
-- WHERE
-- ORDER BY
-- LIMIT
-- DISTINCT
-
-### Aggregate Analysis
-
-- COUNT()
-- SUM()
-- AVG()
-- MIN()
-- MAX()
-
-### Grouping
-
-- GROUP BY
-- HAVING
-
-### Conditional Analysis
-
-- CASE WHEN
-
-### Advanced SQL
-
-- Common Table Expressions (CTEs)
-- Window Functions
-- ROW_NUMBER()
-- RANK()
-- LAG()
-- Running Totals
-
----
-
-# Business Questions Answered Using SQL
-
-✔ Total Revenue
-
-✔ Total Customers
-
-✔ Top Selling Products
-
-✔ Revenue by Category
-
-✔ Revenue by Month
-
-✔ Revenue by Year
-
-✔ Seller Performance
-
-✔ Customer Spending
-
-✔ Payment Method Analysis
-
-✔ Products Performing Above Average
-
-✔ Customer Segmentation
-
-✔ Product Ranking
-
-✔ Running Sales Analysis
-
----
-
-# Phase 4 — Business Intelligence Dashboard
-
-An interactive Power BI dashboard was developed to provide executives with a centralized view of business performance.
-
----
-
-# Executive KPIs
-
-- 💰 Total Revenue
-- 📦 Total Orders
-- 👥 Total Customers
-- 🛍 Total Products
-- 📈 Average Sales
-- 💵 Average Order Value
-- 🛒 Total Quantity Sold
-- 🔥 Highest Sale
-
----
-
-# Interactive Dashboard
-
-The dashboard includes:
-
-### Revenue Analysis
-
-- Monthly Sales Trend
-- Yearly Sales Trend
-
-### Product Analysis
-
-- Revenue by Category
-- Top Selling Products
-
-### Customer Analysis
-
-- Top Customers
-
-### Seller Analysis
-
-- Seller Performance
-
-### Payment Analysis
-
-- Payment Method Distribution
-
-### Order Analysis
-
-- Order Status Overview
-
----
-
-# Interactive Filters
-
-Users can dynamically filter reports by:
-
-- Product Category
-- Order Year
-- Customer City
-- Payment Method
-
----
-
-# DAX Measures
-
-Custom measures were created to support KPI reporting, including:
-
-- Total Revenue
-- Total Orders
-- Total Customers
-- Total Products
-- Total Quantity
-- Average Sales
-- Average Order Value
-- Highest Sale
-- Lowest Sale
-
----
-
-# Business Insights
-
-The analysis provides answers to questions such as:
-
-- Which products contribute most to total revenue?
-- Which categories drive overall business performance?
-- Which customers generate the highest revenue?
-- Which sellers consistently perform well?
-- Which payment methods are most popular?
-- How do sales change across months and years?
-- Which regions contribute the most business activity?
-
----
-
-# Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Data Cleaning & Feature Engineering |
-| Pandas | Data Manipulation |
-| Matplotlib | Exploratory Data Analysis |
-| MySQL | Business Analysis |
-| Power BI | Dashboard Development |
-| DAX | KPI Calculations |
-| Git | Version Control |
-| GitHub | Project Hosting |
-
----
-
-# Skills Demonstrated
-
-### Python
-
-- Data Cleaning
-- Feature Engineering
-- Exploratory Data Analysis
-
-### SQL
-
-- Business Analytics
-- Aggregations
-- CASE WHEN
-- CTEs
-- Window Functions
-- Ranking Functions
-
-### Power BI
-
-- Dashboard Design
-- KPI Development
-- DAX Measures
-- Interactive Reports
-- Data Visualization
-
-
-# Project Outcome
-
-This project demonstrates how raw e-commerce transaction data can be transformed into a structured analytics solution. By combining Python, MySQL, Power BI, and DAX, the project delivers interactive reporting and answers key business questions related to sales, customers, products, sellers, and regional performance.
-
-It showcases practical data analytics skills across the full analytics lifecycle—from data preparation to executive-ready business intelligence dashboards.
-
-
-
-# 👨‍💻 Author
-
-**Mishkat Ullah**
-
-Data Analyst
-
-### Skills
-
-- Python
-- SQL
-- Power BI
-- DAX
-- Excel
-- Data Visualization
-- Business Intelligence
-- Exploratory Data Analysis
-- Machine Learning (Learning)
-
+This project demonstrates how a Data Analyst can convert raw transactional data into actionable business intelligence. The dashboards support executive decision-making by providing visibility into revenue performance, customer behavior, product trends, and regional demand. The included recommendations help improve marketing effectiveness, optimize inventory, enhance customer retention, and support data-driven growth strategies.

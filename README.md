@@ -92,19 +92,25 @@ useful for prioritizing upsell/bundle strategies on the lower-AOV categories.
 
 
 **3. Order fulfillment is a problem area, not a strength.**
+
 Revenue is split almost evenly across **Delivered, Cancelled, Returned, and Pending** (~PKR 1.0–1.1M each) in the waterfall breakdown. 
+
 
 That means only roughly a quarter of total revenue corresponds to cleanly completed (Delivered) orders — Cancelled + Returned + Pending together account for the majority of order value, which is a strong flag for fulfillment/operations review rather than a marketing problem.
 
 **4. 2024 vs 2025 isn't a real trend — it's a data coverage gap.**
 
+
 The `order_year` chart shows revenue heavily concentrated in 2024 with only a small sliver in 2025, and the dashboard's own **YoY% shows 0.00%**.
+
 
 This isn't a genuine year-over-year decline; it means the dataset only contains a partial slice of 2025 orders, so year-over-year comparisons shouldn't be trusted as-is without normalizing for the incomplete year.
 
 
 **5. The monthly revenue trend chart has an axis-ordering bug worth calling out.**
+
 `order_month` was created with `.dt.month_name()`, so when Pandas groups by month name it sorts **alphabetically, not chronologically** (the dashboard axis reads Oct → Jan → Jun → Sep... instead of Jan → Dec).
+
 
 The downward-looking trend line is real in the underlying numbers but is currently unreadable as a "trend" because the x-axis isn't in calendar order. **Fix:** keep `order_month` as a `Period` or categorical ordered by `Order_Date.dt.month` before grouping, so the chart reads left-to-right chronologically.
 

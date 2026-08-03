@@ -127,14 +127,5 @@ Category	Revenue	Avg Sale	Quantity
 
 □ **Inventory Optimization:** Automated reorder suggestions
 
-# ⚡ Quick Links
-📊 Dashboard Screenshot
-
-📓 Full Analysis Notebook
-
-📝 SQL Queries
-
-🗃️ Clean Dataset
-
 **Mishkat** —  Data Analyst | ML 
 📫 [GitHub](https://github.com/mishkat-analyst-ml)

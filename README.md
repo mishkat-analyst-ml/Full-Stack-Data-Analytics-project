@@ -31,12 +31,19 @@ This project simulates a full analytics workflow on **Daraz** (e-commerce) sales
 ## 🗃️ SQL Analysis
 
 `Full stack Project.sql` covers: total revenue/customers,
+
 top products & categories,
+
 monthly/yearly trends,
+
 revenue by payment method,
+
 **customer segmentation** (Premium/Gold/Regular via `CASE`),
+
 above-average sales via a **CTE**,
+
 and window functions (`ROW_NUMBER`, `RANK`, running totals with `SUM() OVER`, `LAG()`)
+
 
 ## 📈 Key Business Insights
 
